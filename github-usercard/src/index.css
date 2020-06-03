@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+  font-family: 'Permanent Marker', cursive;
+}
+
+html, .App {
+  background-color: #d8b9aa;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+  border-radius: 20px;
+  margin: 1% 7%;
+  padding: 1% 7%;
+  background-color: cornflowerblue;
+}
+
+h1 {
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.wrapper .card-text {
+  margin: 0%;
+  padding: 0%;
+}
+
+.wrapper .card-title {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.wrapper .card {
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  margin: 3% 0%;
+  border-radius: 20px;
+}
+
+.wrapper .cardImg {
+  width: 50%;
+}
+
+.forms {
+  margin-top: 3%;
+}
+
+.wrapper input {
+  border-radius: 30px;
+}
